@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+/*  background: url('../images/light-texture.png');*/
+}
+
+a {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #3b3032;
+  opacity: 0.95;
+  color: white;
+  font-family: 'Comfortaa';
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+}
+
+nav ul {
+/*  border: 2px solid red;*/
+  list-style-type: none;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: left;
+  width: 75%;
+}
+
+nav li {
+/*  border: 2px solid red;*/
+  display: inline-block;
+  padding: 0.7em 1em;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+nav li.active {
+  background-color: #ec0984;
+  text-align: left;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+/*  background-color: #fff;*/
+  height: 800px;
+  width: 100%; 
+}
+  section .content {
+/*    border: 2px solid red;*/
+    margin: 0px auto;
+    max-width: 900px; 
+    padding-top: 60px;
+    height: 800px;
+    text-align: right;
+    z-index: 1;
+  }
+    @media screen and (max-width: 640px) {
+      section .content {
+        width: 90%; 
+        } 
+      }
+
+section:nth-child(odd) {
+  background: url('../images/grey-texture.png');
+  background-color: #ccc;
+  height: 1000px;
+}
+  section:nth-child(odd) h1 {
+    color: #fff; 
+  }
+
+  section:nth-child(odd) h2 {
+    color: #fff; 
+  }
+
+  section:nth-child(odd) p {
+    color: #fff; 
+  }
+
+h1 {
+  font-family: 'Comfortaa';
+  font-size: 3.2em;
+/*  color: #3b3032;*/
+  color: #5d5157;
+ /*   text-shadow: 1px 1px 1px #ccc;*/
+}
+
+h2 {
+  font-family: 'Comfortaa';
+  font-size: 2em;
+/*  color: #3b3032;*/
+  color: #5d5157;
+}
+
+p {
+  font-family: 'Comfortaa';
+  font-size: 1.2em;
+/*  color: #3b3032;*/
+  color: #5d5157;
+  line-height: 170%;
+}
+
+p a {
+  text-decoration: none;
+  color: #ec0984;
+  padding: 5px; 
+}
+
+.profile img {
+  border-radius: 250px;
+  float: left;
+  margin-left: 300px;
+  box-shadow: 1px 1px 4px 1px #888;
+}
+
+.profile h1 {
+  color: #5d5157;
+  font-size: 3.8em;
+  margin-top: 120px;
+}
+
+.contact h1 {
+  margin-top: 120px;
+}
+
+.bio {
+  margin-top: 60px;
+}
+
+.icons {
+  margin-top: 60px;
+  margin-right: -10px;
+}
+
