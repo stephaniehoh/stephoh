@@ -2,7 +2,7 @@ $(document).ready(function() {
   initScroll()
   initSnap()
   $("p.email-show").hide()
-  emailHover();
+  emailHover()
 })
 
 function initScroll(){
@@ -25,4 +25,5 @@ function emailHover(){
  $("a.email").hover(function(){
   $("p.email-show").show(600);
  });
+
 }
