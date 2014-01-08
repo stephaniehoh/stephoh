@@ -1,13 +1,13 @@
-$(document).ready(function() {
+$(document).ready(function(){
   initScroll()
   initSnap()
   $("p.email-show").hide()
   emailHover()
   $('.hcaption').hcaptions({
-    height: 370,
+    height: 365,
     width: 550,
-    overlay_bg: 'black',
-    overlay_opacity: 0.8
+    overlay_bg: '#ec0984',
+    overlay_opacity: 0.85
   });
 })
 
@@ -28,8 +28,10 @@ function initSnap(){
 }
 
 function emailHover(){
- $("a.email").hover(function(){
-  $("p.email-show").show(600);
+  $("a.email").hover(function(){
+    $("p.email-show").show(600);
  });
-
 }
+
+
+
