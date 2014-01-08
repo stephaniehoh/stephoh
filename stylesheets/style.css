@@ -70,7 +70,7 @@ section {
 
 section:nth-child(odd) {
 /*  background: url('../images/grey-texture.png');*/
-  background-color: #5c5c5c;
+  background-color: #49484a;
   height: 1000px;
 }
   section:nth-child(odd) h1 {
@@ -121,7 +121,6 @@ h2 {
   height: 360px;
   width: 550px;
   box-shadow: 2px 2px 5px 2px #444;
-  border-radius: 5px;
 }
 
 .built h3 {

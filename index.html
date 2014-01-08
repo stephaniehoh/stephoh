@@ -5,7 +5,8 @@
   <title>stephaniehoh</title>
   <link rel="stylesheet" src="http://normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <link href='stylesheets/style.css' rel='stylesheet'>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="javascripts/jquery.hcaptions.js" type="text/javascript"></script>
   <script src="http://unslider.com/unslider.min.js"></script>
   <script> $(function() { $('.built').unslider(); });</script>
   <script src="javascripts/scrollIt.js" type="text/javascript"></script>
@@ -55,9 +56,24 @@
 <!--       <h1>things i've built</h1> -->
       <div class="built">
         <ul>
-          <li><p>a ruby gem</p><img src="images/billboard_chart.png"></li>
-          <li><p>a cli trivia game</p><img src="images/alister.png"></li>
-          <li><p>a rails web app</p><img src="images/noted.png"></li>
+          <li>
+            <h3>billboard_chart</h3>
+            <a href="#" data-target="#myToggle" class="hcaption" cap-effect="fade"><img src="images/billboard_chart.png"></a>
+            <div id="myToggle" class="hide">
+              <p>This is a ruby gem that I built during week 6 at the Flatiron School.</p>
+            </div>
+          </li>
+          <li>
+            <h3>A-Lister</h3>
+            <a href="#" data-target="#myToggle2" class="hcaption" cap-effect="fade"><img src="images/alister.png"></a>
+            <div id="myToggle2" class="hide">
+              <p>This is a command-line interface game I built during week 4 of the Flatiron School.</p>
+            </div>
+          </li>
+          <li>
+            <h3>Noted</h3>
+            <img src="images/noted.png">
+          </li>
         </ul>
       </div>
     </div>
