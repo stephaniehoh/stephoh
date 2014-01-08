@@ -6,8 +6,8 @@ $(document).ready(function(){
   $('.hcaption').hcaptions({
     height: 365,
     width: 550,
-    overlay_bg: '#ec0984',
-    overlay_opacity: 0.85
+    overlay_bg: '#666',
+    overlay_opacity: 0.9
   });
 })
 
