@@ -43,6 +43,7 @@ nav {
   position: fixed;
   top: 0px;
   z-index: 9;
+  opacity: 0.85;
 }
 
 nav ul {
